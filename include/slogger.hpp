@@ -62,10 +62,10 @@ namespace slogger {
         LoggerBoolean log_error_to_file{true};
         LoggerBoolean log_warning_to_file{true};
         LoggerBoolean log_notice_to_file{true};
-        LoggerFile access_log_file{"/var/log/duva/access.log"};
-        LoggerFile error_log_file{"/var/log/duva/error.log"};
-        LoggerFile warning_log_file{"/var/log/duva/warning.log"};
-        LoggerFile notice_log_file{"/var/log/duva/notice.log"};
+        LoggerFile access_log_file{"/var/log/ff/access.log"};
+        LoggerFile error_log_file{"/var/log/ff/error.log"};
+        LoggerFile warning_log_file{"/var/log/ff/warning.log"};
+        LoggerFile notice_log_file{"/var/log/ff/notice.log"};
         LoggerPrefix access_log_prefix{"[ACCESS]: "};
         LoggerPrefix error_log_prefix{"[ERROR]: "};
         LoggerPrefix warning_log_prefix{"[WARNING]: "};
